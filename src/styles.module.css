@@ -1,9 +1,73 @@
-/* add css module styles here (optional) */
-
 .test {
   margin: 2em;
   padding: 0.5em;
   border: 2px solid #000;
   font-size: 2em;
   text-align: center;
+}
+button.btn {
+  appearance: none;
+    -webkit-appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 11px;
+  min-width: 150px;
+  min-height: 50px;
+  border-radius: 8px;
+  border:15px ;
+  opacity: 5;
+  text-transform: uppercase;
+  transition: all 1s ease-in;
+  transition: 0.3s;
+  }
+  button.btn :hover{
+    opacity: 0.2;
+  }
+button.primary {
+  border: 5px;
+  background:#6495ED ;
+   /* background: #1E90FF; */
+  color: #ffffff;
+}
+
+button.primary:hover{
+  background-image: linear-gradient(25deg, #9171b4 40%, #1E90FF  70%, #9171b4 100%);
+}
+
+button.default {
+  border: 5px;
+  background-color: #f7b82d;
+  color: #ffffff;
+}
+
+button.default:hover{
+  background-image: linear-gradient(25deg, #f7b82d 10%, #ffd16c  70%, #f7b82d 100%);
+}
+
+button.dashed {
+  border: 2px dashed black;
+  color: black;
+  background-color: inherit;
+  transition: border-color 0.5s ease;
+}
+
+button.dashed:hover{
+  border-color: #f7b82d;
+}
+
+button.text {
+  border: 5px;
+  background-color: inherit;
+  font-weight: bold;
+}
+
+button.text:hover {
+  box-shadow: 0 0 10px #4d4f4fc3;
+}
+
+button.link {
+  border: 5px;
+  font-weight: bold;
+  background-color: inherit;
+  text-decoration: underline; color: #1E90FF;
 }
